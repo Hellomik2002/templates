@@ -1,0 +1,16 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "author": "hellomik",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.17.1",
+    "typescript": "^3.4.5"
+  }
+}

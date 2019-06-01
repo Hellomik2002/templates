@@ -1,0 +1,29 @@
+{
+  "name": "error2",
+  "private": true,
+  "version": "0.0.1",
+  "description": "error2",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"    
+  },
+  "dependencies": {
+    "@ionic/core": "^4.5.0-dev.201905300211.3b41f28",
+    "@stencil/sass": "^0.2.3",
+    "gulp": "^4.0.2",
+    "gulp-less": "^4.0.1"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.0.0-beta.5",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.12.0"
+  }
+}
