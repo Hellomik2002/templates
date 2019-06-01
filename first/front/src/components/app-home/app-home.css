@@ -1,0 +1,18 @@
+@import url(cleaner.css);
+.topor {
+  margin-bottom: 8px;
+  -ms-flex-item-align: center;
+  align-self: center; }
+
+#logoHead {
+  margin-left: 2%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 70%;
+  width: 3%; }
+  #logoHead img {
+    height: 100%;
+    width: 100%; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC1ob21lL2FwcC1ob21lLnNhc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsd0JBQU87QUFFUDtFQUNJLGtCQUFrQjtFQUNsQiwyQkFBa0I7RUFBbEIsa0JBQWtCLEVBQUE7O0FBQ3RCO0VBQ0ksZUFBZTtFQUNmLDJCQUFvQjtFQUFwQiwyQkFBb0I7RUFBcEIsb0JBQW9CO0VBQ3BCLFdBQVc7RUFDWCxTQUFTLEVBQUE7RUFKYjtJQU1RLFlBQVk7SUFDWixXQUFXLEVBQUEiLCJmaWxlIjoiYXBwLWhvbWUvYXBwLWhvbWUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCAnY2xlYW5lci5jc3MnO1xuXG4udG9wb3Ige1xuICAgIG1hcmdpbi1ib3R0b206IDhweDtcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7IH1cbiNsb2dvSGVhZCB7XG4gICAgbWFyZ2luLWxlZnQ6IDIlO1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIGhlaWdodDogNzAlO1xuICAgIHdpZHRoOiAzJTtcbiAgICBpbWcge1xuICAgICAgICBoZWlnaHQ6IDEwMCU7XG4gICAgICAgIHdpZHRoOiAxMDAlOyB9IH1cbiJdfQ== */

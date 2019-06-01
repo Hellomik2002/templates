@@ -1,0 +1,123 @@
+.ion-padding,
+[padding] {
+  --padding-start: var(--ion-padding, 0px);
+  --padding-end: var(--ion-padding, 0px);
+  --padding-top: var(--ion-padding, 0px);
+  --padding-bottom: var(--ion-padding, 0px);
+}
+.headerMain {
+  --background: var(--ion-background-color, none);
+}
+.sc-ion-card-md-h {
+  /*ion-card*/
+  background: linear-gradient(
+    rgb(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  ) !important;
+  --background: var(--ion-item-background, none);
+  --color: var(--ion-color-step-550, #737373);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+#MainContainerBoxList {
+  background: var(--ion-item-background, var(--ion-background-color, none));
+}
+
+.MainContainItem {
+  --background: var(--ion-background-color, none);
+}
+
+.simpleSlidetext {
+  text-transform: uppercase;
+}
+
+.hi {
+  display: flex;
+  flex-direction: column;
+  widows: 100%;
+  flex-shrink: 2;
+  flex-wrap: nowrap;
+  animation: slideInFromLeft 0.5s ease-out 0s 1;
+}
+#cardes {
+  width: 26%;
+  height: 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)) !important;
+  border-radius: 40px !important;
+  background: rgba(0, 0, 0, 0.815);
+}
+h1 {
+  margin: 16px;
+  margin-top: 2%;
+  font-size: 250%;
+  color: rgb(255, 255, 255, 0.8);
+}
+p {
+  margin: 16px;
+  font-size: 125%;
+  color: lavender;
+}
+.pInClouds {
+  color: black;
+}
+h2 {
+  color: azure;
+  font-family: transparent;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0.2;
+    transform: translateY(5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+/*animation name  */
+
+#mainContainer {
+  background: url(../../assets/backImage/background.jpg) no-repeat;
+  background-size: cover;
+  height: 80%;
+}
+#MainContainerBoxList {
+  width: 40%;
+  background: linear-gradient(
+    0.25turn,
+    rgb(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0)
+  ) !important;
+}
+
+.header {
+  height: 10%;
+}
+.topor {
+  display: inline-flex;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 150%;
+  margin-right: 5%;
+  margin-left: 5%; 
+}
+
+#catalog1 {
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  z-index: 1110;
+  font-size: 250%;
+}
