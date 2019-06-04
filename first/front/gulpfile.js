@@ -7,7 +7,7 @@ function copy(done) {
   gulp
     .src("./src/components/**/*.sass")
     .pipe(sourcemaps.init())
-    .pipe(sass({ errorLogToConsole: true, outputStyle: "exapnded" }))
+    .pipe(sass({ errorLogToConsole: true, outputStyle: "compressed" }))
     .on("error", console.error.bind(console))
     .pipe(
       autoprefixer({
