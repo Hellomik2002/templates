@@ -22,7 +22,7 @@ function copy(done) {
   done();
 }
 function print(done) {
-  console.log(":sa");
+  
   done();
 }
 function wacchSass() {

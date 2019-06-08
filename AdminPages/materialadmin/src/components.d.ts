@@ -12,15 +12,27 @@ import {
 
 
 export namespace Components {
+  interface AddPost {}
   interface AdminPage {
     'current_item': number;
     'nav_items': SideBar[];
   }
-  interface IconPage {}
+  interface CardPage {
+    'patients': any[];
+  }
+  interface TopNavBar {
+    'head': string;
+  }
 }
 
 declare global {
 
+
+  interface HTMLAddPostElement extends Components.AddPost, HTMLStencilElement {}
+  var HTMLAddPostElement: {
+    prototype: HTMLAddPostElement;
+    new (): HTMLAddPostElement;
+  };
 
   interface HTMLAdminPageElement extends Components.AdminPage, HTMLStencilElement {}
   var HTMLAdminPageElement: {
@@ -28,27 +40,43 @@ declare global {
     new (): HTMLAdminPageElement;
   };
 
-  interface HTMLIconPageElement extends Components.IconPage, HTMLStencilElement {}
-  var HTMLIconPageElement: {
-    prototype: HTMLIconPageElement;
-    new (): HTMLIconPageElement;
+  interface HTMLCardPageElement extends Components.CardPage, HTMLStencilElement {}
+  var HTMLCardPageElement: {
+    prototype: HTMLCardPageElement;
+    new (): HTMLCardPageElement;
+  };
+
+  interface HTMLTopNavBarElement extends Components.TopNavBar, HTMLStencilElement {}
+  var HTMLTopNavBarElement: {
+    prototype: HTMLTopNavBarElement;
+    new (): HTMLTopNavBarElement;
   };
   interface HTMLElementTagNameMap {
+    'add-post': HTMLAddPostElement;
     'admin-page': HTMLAdminPageElement;
-    'icon-page': HTMLIconPageElement;
+    'card-page': HTMLCardPageElement;
+    'top-nav-bar': HTMLTopNavBarElement;
   }
 }
 
 declare namespace LocalJSX {
+  interface AddPost extends JSXBase.HTMLAttributes<HTMLAddPostElement> {}
   interface AdminPage extends JSXBase.HTMLAttributes<HTMLAdminPageElement> {
     'current_item'?: number;
     'nav_items'?: SideBar[];
   }
-  interface IconPage extends JSXBase.HTMLAttributes<HTMLIconPageElement> {}
+  interface CardPage extends JSXBase.HTMLAttributes<HTMLCardPageElement> {
+    'patients'?: any[];
+  }
+  interface TopNavBar extends JSXBase.HTMLAttributes<HTMLTopNavBarElement> {
+    'head'?: string;
+  }
 
   interface IntrinsicElements {
+    'add-post': AddPost;
     'admin-page': AdminPage;
-    'icon-page': IconPage;
+    'card-page': CardPage;
+    'top-nav-bar': TopNavBar;
   }
 }
 
